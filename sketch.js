@@ -80,10 +80,10 @@ function setup() {
 
   block25 = new Block2(640, 165, 30, 30);
 
-  hexa = Bodies.circle(50, 200, 20);
+  hexa = Bodies.circle(50, 150, 20);
   World.add(world, hexa);
 
-  chain = new Chain(hexa, { x: 150, y: 200 });
+  chain = new Chain(hexa, { x: 150, y: 100 });
 
   Engine.run(engine);
 }
