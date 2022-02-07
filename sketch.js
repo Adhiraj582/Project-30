@@ -92,9 +92,10 @@ function draw() {
   rectMode(CENTER);
   background(rgb(146, 227, 102));
 
-  textSize(32);
+  textSize(20);
   fill(0, 0, 0);
-  text('Tower Siege 2', 270 ,50);
+  text('Drag the Hexagonal Stone and Release it, to launch it towards the blocks 👍',90,40);
+
   
 
   ground.display();
